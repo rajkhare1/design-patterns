@@ -1,4 +1,4 @@
-package com.rajkhare.singleresp;
+package com.rajkhare.solid.singleresp;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
