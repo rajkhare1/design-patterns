@@ -1,24 +1,18 @@
 package com.rajkhare.solid.liskov_1;
 
-public class Square extends Rectangle {
-	
-	public Square(int side) {
-		super(side, side);
-	}
-	
-	@Override
-	public void setWidth(int width) {
-		setSide(width);
-	}
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+@AllArgsConstructor
+public class Square implements Shape {
+
+	private int side;
 
 	@Override
-	public void setHeight(int height) {
-		setSide(height);
+	public int computeArea() {
+		return side * side;
 	}
-
-	public void setSide(int side) {
-		super.setWidth(side);
-		super.setHeight(side);
-	}
-
 }

@@ -1,5 +1,9 @@
 package com.rajkhare.solid.openclose;
 
+import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
+
 import java.time.LocalDateTime;
 import java.util.Collections;
 import java.util.HashMap;
@@ -7,11 +11,14 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
+
 public class CallHistory {
 
+    @Getter
+    @Setter
     public static class Call {
         
-        private LocalDateTime begin;
+        private  LocalDateTime begin;
         
         private long duration;
 
@@ -23,26 +30,6 @@ public class CallHistory {
             this.subscriberId = subscriberId;
         }
 
-        /**
-         * @return the begin
-         */
-        public LocalDateTime getBegin() {
-            return begin;
-        }
-
-        /**
-         * @return the duration
-         */
-        public long getDuration() {
-            return duration;
-        }
-
-        /**
-         * @return the subscriber
-         */
-        public Long getSubscriberId() {
-            return subscriberId;
-        }
 
     }
 

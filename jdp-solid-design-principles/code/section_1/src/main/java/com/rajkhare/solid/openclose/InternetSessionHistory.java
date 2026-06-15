@@ -1,5 +1,9 @@
 package com.rajkhare.solid.openclose;
 
+import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
+
 import java.time.LocalDateTime;
 import java.util.Collections;
 import java.util.HashMap;
@@ -7,8 +11,11 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
+
 public class InternetSessionHistory {
 
+    @Getter
+    @Setter
     public static class InternetSession {
         
         private LocalDateTime begin;
@@ -23,26 +30,7 @@ public class InternetSessionHistory {
             this.subscriberId = subscriberId;
         }
 
-        /**
-         * @return the begin
-         */
-        public LocalDateTime getBegin() {
-            return begin;
-        }
 
-        /**
-         * @return the data used
-         */
-        public long getDataUsed() {
-            return dataUsed;
-        }
-
-        /**
-         * @return the subscriber
-         */
-        public Long getSubscriberId() {
-            return subscriberId;
-        }
 
     }
     private static final Map<Long, List<InternetSession>> SESSIONS = new HashMap<>();

@@ -1,4 +1,15 @@
-D:\Udemy\Design Patterns Java\EclipseWorkspace\design_principles\src\main\java\com\company\encapsulation\service\UserPersistenceService.java
-D:\Udemy\Design Patterns Java\EclipseWorkspace\design_principles\src\main\java\com\company\encapsulation\service\LoginService.java
-D:\Udemy\Design Patterns Java\EclipseWorkspace\design_principles\src\main\java\com\company\encapsulation\controller\UserController.java
-D:\Udemy\Design Patterns Java\EclipseWorkspace\design_principles\src\main\java\com\company\encapsulation\entity\User.java
+/Users/rajkhare/Raj/Udemy/design-patterns/jdp-solid-design-principles/code/section_1/src/main/java/com/rajkhare/solid/liskov_1/Main.java
+/Users/rajkhare/Raj/Udemy/design-patterns/jdp-solid-design-principles/code/section_1/src/main/java/com/rajkhare/solid/liskov_1/Rectangle.java
+/Users/rajkhare/Raj/Udemy/design-patterns/jdp-solid-design-principles/code/section_1/src/main/java/com/rajkhare/solid/liskov_1/Square.java
+/Users/rajkhare/Raj/Udemy/design-patterns/jdp-solid-design-principles/code/section_1/src/main/java/com/rajkhare/solid/openclose/CallHistory.java
+/Users/rajkhare/Raj/Udemy/design-patterns/jdp-solid-design-principles/code/section_1/src/main/java/com/rajkhare/solid/openclose/ISPSubscriber.java
+/Users/rajkhare/Raj/Udemy/design-patterns/jdp-solid-design-principles/code/section_1/src/main/java/com/rajkhare/solid/openclose/InternetSessionHistory.java
+/Users/rajkhare/Raj/Udemy/design-patterns/jdp-solid-design-principles/code/section_1/src/main/java/com/rajkhare/solid/openclose/PhoneSubscriber.java
+/Users/rajkhare/Raj/Udemy/design-patterns/jdp-solid-design-principles/code/section_1/src/main/java/com/rajkhare/solid/openclose/Subscriber.java
+/Users/rajkhare/Raj/Udemy/design-patterns/jdp-solid-design-principles/code/section_1/src/main/java/com/rajkhare/solid/singleresp/Main.java
+/Users/rajkhare/Raj/Udemy/design-patterns/jdp-solid-design-principles/code/section_1/src/main/java/com/rajkhare/solid/singleresp/Store.java
+/Users/rajkhare/Raj/Udemy/design-patterns/jdp-solid-design-principles/code/section_1/src/main/java/com/rajkhare/solid/singleresp/User.java
+/Users/rajkhare/Raj/Udemy/design-patterns/jdp-solid-design-principles/code/section_1/src/main/java/com/rajkhare/solid/singleresp/UserController.java
+/Users/rajkhare/Raj/Udemy/design-patterns/jdp-solid-design-principles/code/section_1/src/main/java/com/rajkhare/solid/singleresp/UserParser.java
+/Users/rajkhare/Raj/Udemy/design-patterns/jdp-solid-design-principles/code/section_1/src/main/java/com/rajkhare/solid/singleresp/UserPersistenceService.java
+/Users/rajkhare/Raj/Udemy/design-patterns/jdp-solid-design-principles/code/section_1/src/main/java/com/rajkhare/solid/singleresp/UserValidator.java

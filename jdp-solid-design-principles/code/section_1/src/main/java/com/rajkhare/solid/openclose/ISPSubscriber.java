@@ -1,7 +1,12 @@
 package com.rajkhare.solid.openclose;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import java.util.List;
 
+@Setter
+@Getter
 public class ISPSubscriber extends Subscriber {
 
     private long freeUsage;
@@ -20,19 +25,4 @@ public class ISPSubscriber extends Subscriber {
     }
 
 
-    /**
-     * @return the freeUsage
-     */
-    public long getFreeUsage() {
-        return freeUsage;
-    }
-
-    /**
-     * @param freeUsage the freeUsage to set
-     */
-    public void setFreeUsage(long freeUsage) {
-        this.freeUsage = freeUsage;
-    }
-
-    
 }
